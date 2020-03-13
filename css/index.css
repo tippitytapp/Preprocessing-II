@@ -85,6 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -167,54 +168,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-* {
-  border: 1px solid black;
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2%;
-  width: 100%;
-  border-bottom: 2px dashed silver;
-}
-@media (max-width:500px) {
-  .nav {
-    flex-direction: column;
-    justify-content: center;
-    padding: 2%;
-  }
-}
-.nav h1 {
-  margin-left: 8%;
-}
-@media (max-width:500px) {
-  .nav h1 {
-    margin-left: 0%;
-  }
-}
-.nav nav {
-  display: flex;
-  width: 30%;
-  justify-content: space-evenly;
-  margin-right: 6%;
-}
-@media (max-width:500px) {
-  .nav nav {
-    width: 90%;
-    justify-content: space-between;
-    align-items: center ;
-  }
-}
-.nav nav a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: #212529;
-}
-* {
-  border: 1px solid black;
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -226,34 +179,18 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-* {
-  border: 1px solid black;
-}
-@media (max-width:500px) {
-  .home {
-    justify-content: center;
-  }
+.home header {
+  display: flex;
+  width: 90%;
 }
 .home header img {
-  justify-content: center;
-}
-@media (max-width:500px) {
-  .home header img {
-    width: 90%;
-  }
+  width: 90%;
 }
 .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-@media (max-width:500px) {
-  .home .content-section {
-    flex-direction: column;
-    width: 90%;
-    justify-content: center;
-  }
 }
 .home .content-section .text-content {
   width: 48%;
@@ -291,24 +228,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .bbtn {
-  display: flex;
-  align-items: center;
-}
-.home .content-pick .bbtn .btn {
-  background-color: #17A2B8;
-  border-radius: 10%;
-  height: 30px;
-  width: 100%;
-  text-align: center;
-  padding-top: 3%;
-  font-size: 1.5rem;
-  color: #FFFFFF;
-}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-* {
-  border: 1px solid black;
 }
